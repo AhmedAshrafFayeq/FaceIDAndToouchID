@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D62803227B1C85900C60156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62803127B1C85900C60156 /* AppDelegate.swift */; };
-		2D62803427B1C85900C60156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62803327B1C85900C60156 /* SceneDelegate.swift */; };
-		2D62803627B1C85900C60156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62803527B1C85900C60156 /* ViewController.swift */; };
-		2D62803927B1C85900C60156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D62803727B1C85900C60156 /* Main.storyboard */; };
-		2D62803B27B1C85A00C60156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D62803A27B1C85A00C60156 /* Assets.xcassets */; };
-		2D62803E27B1C85A00C60156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D62803C27B1C85A00C60156 /* LaunchScreen.storyboard */; };
+		2DEE481927B5BE0200B82C0F /* Biometrics_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE481827B5BE0200B82C0F /* Biometrics_SwiftUIApp.swift */; };
+		2DEE481B27B5BE0200B82C0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE481A27B5BE0200B82C0F /* ContentView.swift */; };
+		2DEE481D27B5BE0400B82C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE481C27B5BE0400B82C0F /* Assets.xcassets */; };
+		2DEE482027B5BE0400B82C0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE481F27B5BE0400B82C0F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D62802E27B1C85900C60156 /* BiometricsWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricsWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D62803127B1C85900C60156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D62803327B1C85900C60156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D62803527B1C85900C60156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D62803827B1C85900C60156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2D62803A27B1C85A00C60156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D62803D27B1C85A00C60156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D62803F27B1C85A00C60156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEE481527B5BE0200B82C0F /* Biometrics_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biometrics_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEE481827B5BE0200B82C0F /* Biometrics_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biometrics_SwiftUIApp.swift; sourceTree = "<group>"; };
+		2DEE481A27B5BE0200B82C0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DEE481C27B5BE0400B82C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DEE481F27B5BE0400B82C0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D62802B27B1C85900C60156 /* Frameworks */ = {
+		2DEE481227B5BE0200B82C0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D62802527B1C85900C60156 = {
+		2DEE480C27B5BE0200B82C0F = {
 			isa = PBXGroup;
 			children = (
-				2D62803027B1C85900C60156 /* BiometricsWithSwiftUI */,
-				2D62802F27B1C85900C60156 /* Products */,
+				2DEE481727B5BE0200B82C0F /* Biometrics_SwiftUI */,
+				2DEE481627B5BE0200B82C0F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2D62802F27B1C85900C60156 /* Products */ = {
+		2DEE481627B5BE0200B82C0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D62802E27B1C85900C60156 /* BiometricsWithSwiftUI.app */,
+				2DEE481527B5BE0200B82C0F /* Biometrics_SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D62803027B1C85900C60156 /* BiometricsWithSwiftUI */ = {
+		2DEE481727B5BE0200B82C0F /* Biometrics_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				2D62803127B1C85900C60156 /* AppDelegate.swift */,
-				2D62803327B1C85900C60156 /* SceneDelegate.swift */,
-				2D62803527B1C85900C60156 /* ViewController.swift */,
-				2D62803727B1C85900C60156 /* Main.storyboard */,
-				2D62803A27B1C85A00C60156 /* Assets.xcassets */,
-				2D62803C27B1C85A00C60156 /* LaunchScreen.storyboard */,
-				2D62803F27B1C85A00C60156 /* Info.plist */,
+				2DEE481827B5BE0200B82C0F /* Biometrics_SwiftUIApp.swift */,
+				2DEE481A27B5BE0200B82C0F /* ContentView.swift */,
+				2DEE481C27B5BE0400B82C0F /* Assets.xcassets */,
+				2DEE481E27B5BE0400B82C0F /* Preview Content */,
 			);
-			path = BiometricsWithSwiftUI;
+			path = Biometrics_SwiftUI;
+			sourceTree = "<group>";
+		};
+		2DEE481E27B5BE0400B82C0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE481F27B5BE0400B82C0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D62802D27B1C85900C60156 /* BiometricsWithSwiftUI */ = {
+		2DEE481427B5BE0200B82C0F /* Biometrics_SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D62804227B1C85A00C60156 /* Build configuration list for PBXNativeTarget "BiometricsWithSwiftUI" */;
+			buildConfigurationList = 2DEE482327B5BE0400B82C0F /* Build configuration list for PBXNativeTarget "Biometrics_SwiftUI" */;
 			buildPhases = (
-				2D62802A27B1C85900C60156 /* Sources */,
-				2D62802B27B1C85900C60156 /* Frameworks */,
-				2D62802C27B1C85900C60156 /* Resources */,
+				2DEE481127B5BE0200B82C0F /* Sources */,
+				2DEE481227B5BE0200B82C0F /* Frameworks */,
+				2DEE481327B5BE0200B82C0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BiometricsWithSwiftUI;
-			productName = BiometricsWithSwiftUI;
-			productReference = 2D62802E27B1C85900C60156 /* BiometricsWithSwiftUI.app */;
+			name = Biometrics_SwiftUI;
+			productName = Biometrics_SwiftUI;
+			productReference = 2DEE481527B5BE0200B82C0F /* Biometrics_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2D62802627B1C85900C60156 /* Project object */ = {
+		2DEE480D27B5BE0200B82C0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					2D62802D27B1C85900C60156 = {
+					2DEE481427B5BE0200B82C0F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 2D62802927B1C85900C60156 /* Build configuration list for PBXProject "BiometricsWithSwiftUI" */;
+			buildConfigurationList = 2DEE481027B5BE0200B82C0F /* Build configuration list for PBXProject "Biometrics_SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2D62802527B1C85900C60156;
-			productRefGroup = 2D62802F27B1C85900C60156 /* Products */;
+			mainGroup = 2DEE480C27B5BE0200B82C0F;
+			productRefGroup = 2DEE481627B5BE0200B82C0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D62802D27B1C85900C60156 /* BiometricsWithSwiftUI */,
+				2DEE481427B5BE0200B82C0F /* Biometrics_SwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D62802C27B1C85900C60156 /* Resources */ = {
+		2DEE481327B5BE0200B82C0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D62803E27B1C85A00C60156 /* LaunchScreen.storyboard in Resources */,
-				2D62803B27B1C85A00C60156 /* Assets.xcassets in Resources */,
-				2D62803927B1C85900C60156 /* Main.storyboard in Resources */,
+				2DEE482027B5BE0400B82C0F /* Preview Assets.xcassets in Resources */,
+				2DEE481D27B5BE0400B82C0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D62802A27B1C85900C60156 /* Sources */ = {
+		2DEE481127B5BE0200B82C0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D62803627B1C85900C60156 /* ViewController.swift in Sources */,
-				2D62803227B1C85900C60156 /* AppDelegate.swift in Sources */,
-				2D62803427B1C85900C60156 /* SceneDelegate.swift in Sources */,
+				2DEE481B27B5BE0200B82C0F /* ContentView.swift in Sources */,
+				2DEE481927B5BE0200B82C0F /* Biometrics_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2D62803727B1C85900C60156 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D62803827B1C85900C60156 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2D62803C27B1C85A00C60156 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D62803D27B1C85A00C60156 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2D62804027B1C85A00C60156 /* Debug */ = {
+		2DEE482127B5BE0400B82C0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		2D62804127B1C85A00C60156 /* Release */ = {
+		2DEE482227B5BE0400B82C0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,19 +261,19 @@
 			};
 			name = Release;
 		};
-		2D62804327B1C85A00C60156 /* Debug */ = {
+		2DEE482427B5BE0400B82C0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KL2N82MUSP;
+				DEVELOPMENT_ASSET_PATHS = "\"Biometrics_SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BiometricsWithSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fayeq.BiometricsWithSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fayeq.Biometrics-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,19 +289,19 @@
 			};
 			name = Debug;
 		};
-		2D62804427B1C85A00C60156 /* Release */ = {
+		2DEE482527B5BE0400B82C0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KL2N82MUSP;
+				DEVELOPMENT_ASSET_PATHS = "\"Biometrics_SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BiometricsWithSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fayeq.BiometricsWithSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fayeq.Biometrics-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D62802927B1C85900C60156 /* Build configuration list for PBXProject "BiometricsWithSwiftUI" */ = {
+		2DEE481027B5BE0200B82C0F /* Build configuration list for PBXProject "Biometrics_SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D62804027B1C85A00C60156 /* Debug */,
-				2D62804127B1C85A00C60156 /* Release */,
+				2DEE482127B5BE0400B82C0F /* Debug */,
+				2DEE482227B5BE0400B82C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D62804227B1C85A00C60156 /* Build configuration list for PBXNativeTarget "BiometricsWithSwiftUI" */ = {
+		2DEE482327B5BE0400B82C0F /* Build configuration list for PBXNativeTarget "Biometrics_SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D62804327B1C85A00C60156 /* Debug */,
-				2D62804427B1C85A00C60156 /* Release */,
+				2DEE482427B5BE0400B82C0F /* Debug */,
+				2DEE482527B5BE0400B82C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2D62802627B1C85900C60156 /* Project object */;
+	rootObject = 2DEE480D27B5BE0200B82C0F /* Project object */;
 }
